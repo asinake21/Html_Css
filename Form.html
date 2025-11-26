@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Demo</title>
+</head>
+<body>
+    <h2>Sample Form</h2>
+
+<form action="Table.html" method="post">
+
+    <label>Name:</label><br>
+    <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" placeholder="Enter your email"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label>Choose Service:</label><br>
+    <select name="service">
+        <option>Email</option>
+        <option>WWW</option>
+        <optgroup label="Messaging Services">
+            <option>Instant Messaging</option>
+            <option >Mailing List</option>
+        </optgroup>
+        <option>FTP</option>
+        <option>Chat Room</option>
+    </select><br><br>
+
+    <label name="feedback">Feedback:</label><br>
+    <textarea name="feedback" rows="4" cols="30" placeholder="Write Your Idea Here"></textarea><br><br>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset Form">
+    <br><br>
+    <input type="checkbox" name="lang" value="html">
+    <label for="html" style="margin-right: 20px;">Html</label>
+    <input type="checkbox" name="lang" value="css">
+    <label for="css">Css</label>
+    <input type="checkbox" name="lang" value="js">
+    <label for="js">JavaScript</label>
+<br><br>
+Languages known:
+<SELECT NAME=
+"lang"  MULTIPLE>
+<OPTION> English
+<OPTION> Amharic
+<OPTION> Afan Oromo
+<OPTION> Tigrigna
+  <OPTION> English
+<OPTION> Amharic
+<OPTION> Afan Oromo
+<OPTION> Tigrigna
+</SELECT>
+    
+</form>
+
+
+</body>
+</html>

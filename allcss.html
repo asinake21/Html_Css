@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Topics Inline CSS</title>
+</head>
+<body style="font-family: Arial; background-color:#f5f5f5; padding:20px;">
+
+<h1 style="text-align:center; color:darkblue;">Internet Services and TLD Demo (Inline CSS)</h1>
+
+<!-- Form Section -->
+<h2 style="color:green;">Sample Form</h2>
+<form action="submit.php" method="post" style="background-color:#fff; padding:10px; border:2px solid black; width:500px;">
+    <label for="name" style="font-weight:bold;">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter name" style="margin:5px 0; width:100%;"><br>
+
+    <label for="email" style="font-weight:bold;">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Enter email" style="margin:5px 0; width:100%;"><br>
+
+    <label for="password" style="font-weight:bold;">Password:</label>
+    <input type="password" name="password" id="password" style="margin:5px 0; width:100%;"><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label for="service">Choose Service:</label>
+    <select name="service" id="service" style="margin:5px 0; width:100%;">
+        <option>Email</option>
+        <option>WWW</option>
+        <option>FTP</option>
+        <option>Chat Room</option>
+    </select><br><br>
+
+    <label for="feedback">Feedback:</label>
+    <textarea name="feedback" id="feedback" rows="4" cols="50" placeholder="Write your feedback..." style="margin:5px 0;"></textarea><br>
+
+    <input type="submit" value="Submit" style="background-color:blue; color:white; padding:5px 10px; border:none;">
+</form>
+
+<hr style="margin:20px 0;">
+
+<!-- Table Section -->
+<h2 style="color:green;">Top Level Domains Table</h2>
+<table border="1" cellpadding="10" cellspacing="5" style="background-color:#fff; width:80%; border-collapse:collapse;">
+    <caption style="font-weight:bold; color:darkred;">TLDs and Examples</caption>
+    <tr style="background-color:lightblue;">
+        <th>TLD</th>
+        <th>Description</th>
+        <th>Example</th>
+    </tr>
+    <tr>
+        <td>.com</td>
+        <td>Commercial</td>
+        <td>www.google.com</td>
+    </tr>
+    <tr style="background-color:#f2f2f2;">
+        <td>.org</td>
+        <td>Nonprofit</td>
+        <td>www.ubuntu.org</td>
+    </tr>
+    <tr>
+        <td>.edu</td>
+        <td>Education</td>
+        <td>www.bdu.edu.et</td>
+    </tr>
+</table>
+
+<hr style="margin:20px 0;">
+
+<!-- Lists Section -->
+<h2 style="color:green;">Lists</h2>
+
+<h3>Ordered List</h3>
+<ol type="1" style="color:darkblue;">
+    <li>Email</li>
+    <li>WWW</li>
+    <li>FTP</li>
+</ol>
+
+<h3>Unordered List (Disc, Circle, Square)</h3>
+<ul style="list-style-type:disc; color:darkred;">
+    <li>Text</li>
+    <li>Graphics</li>
+</ul>
+<ul style="list-style-type:circle; color:green;">
+    <li>Sound</li>
+    <li>Software</li>
+</ul>
+<ul style="list-style-type:square; color:purple;">
+    <li>People Communication Tools</li>
+</ul>
+
+<h3>Nested List</h3>
+<ul style="color:orange;">
+    <li>Internet Services
+        <ol type="a">
+            <li>Email</li>
+            <li>WWW</li>
+        </ol>
+    </li>
+</ul>
+
+<hr style="margin:20px 0;">
+
+<!-- Iframe Section -->
+<h2 style="color:green;">Iframe Example</h2>
+<iframe src="form.html" width="600" height="300" frameborder="2" style="border-color:blue; margin-bottom:10px;"></iframe>
+<iframe src="table.html" width="600" height="300" frameborder="2" style="border-color:green;"></iframe>
+
+<hr style="margin:20px 0;">
+
+<!-- Extra: description list -->
+<h2 style="color:green;">Description List</h2>
+<dl>
+    <dt>FTP</dt>
+    <dd>File Transfer Protocol to upload/download files</dd>
+    <dt>WWW</dt>
+    <dd>World Wide Web to browse websites</dd>
+</dl>
+
+<form action="submit.php" method="post">
+    <fieldset>
+        <legend style="background-color:aqua;font-weight: 100;">Personal Information</legend>
+        Name: <input type="text" name="name"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Feedback</legend>
+        Comments:<br>
+        <textarea name="feedback" rows="4" cols="50"></textarea>
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>

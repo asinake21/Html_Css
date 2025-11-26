@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Topics Without CSS</title>
+</head>
+<body>
+
+<h1>Internet Services and TLD Demo (No CSS)</h1>
+
+<!-- Form Section -->
+<h2>Sample Form</h2>
+<form action="submit.php" method="post" border="1">
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" id="name" placeholder="Enter name"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" placeholder="Enter email"><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" name="password" id="password"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <label for="service">Choose Service:</label><br>
+    <select name="service" id="service">
+        <option>Email</option>
+        <option>WWW</option>
+        <option>FTP</option>
+        <option>Chat Room</option>
+    </select><br><br>
+
+    <label for="feedback">Feedback:</label><br>
+    <textarea name="feedback" id="feedback" rows="4" cols="50" placeholder="Write your feedback..."></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<hr>
+
+<!-- Table Section -->
+<h2>Top Level Domains Table</h2>
+<table border="1" cellpadding="10" cellspacing="5" width="80%">
+    <caption>TLDs and Examples</caption>
+    <tr>
+        <th>TLD</th>
+        <th>Description</th>
+        <th>Example</th>
+    </tr>
+    <tr>
+        <td>.com</td>
+        <td>Commercial</td>
+        <td>www.google.com</td>
+    </tr>
+    <tr>
+        <td>.org</td>
+        <td>Nonprofit</td>
+        <td>www.ubuntu.org</td>
+    </tr>
+    <tr>
+        <td>.edu</td>
+        <td>Education</td>
+        <td>www.bdu.edu.et</td>
+    </tr>
+</table>
+
+<hr>
+
+<!-- Lists Section -->
+<h2>Lists</h2>
+
+<h3>Ordered List</h3>
+<ol type="1">
+    <li>Email</li>
+    <li>WWW</li>
+    <li>FTP</li>
+</ol>
+
+<h3>Unordered List (Disc, Circle, Square)</h3>
+<ul type="disc">
+    <li>Text</li>
+    <li>Graphics</li>
+</ul>
+<ul type="circle">
+    <li>Sound</li>
+    <li>Software</li>
+</ul>
+<ul type="square">
+    <li>People Communication Tools</li>
+</ul>
+
+<h3>Nested List</h3>
+<ul>
+    <li>Internet Services
+        <ol type="a">
+            <li>Email</li>
+            <li>WWW</li>
+        </ol>
+    </li>
+</ul>
+
+<hr>
+
+<!-- Iframe Section -->
+<h2>Iframe Example</h2>
+<iframe src="form.html" width="600" height="300" frameborder="2"></iframe>
+<br>
+<iframe src="table.html" width="600" height="300" frameborder="2"></iframe>
+
+<hr>
+
+<!-- Description List -->
+<h2>Description List</h2>
+<dl>
+    <dt>FTP</dt>
+    <dd>File Transfer Protocol to upload/download files</dd>
+
+    <dt>WWW</dt>
+    <dd>World Wide Web to browse websites</dd>
+</dl>
+
+</body>
+</html>
